@@ -1,0 +1,6 @@
+number=input()
+number=str(number)
+first_digit=int(number[0])
+second_digit=int(number[-1])
+print(first_digit)
+print(second_digit)
