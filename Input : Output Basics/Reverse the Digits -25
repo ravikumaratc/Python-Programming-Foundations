@@ -1,0 +1,5 @@
+first=input()
+first_name= first[0]
+second_name=first[1]
+result=second_name + first_name
+print(result)
