@@ -1,0 +1,61 @@
+1.LENGTH OF THE STRING 
+
+word=input()
+length_of_word=len(word)
+print(length_of_word)
+
+
+2.STAR REPETITION
+
+w=input()
+length=len(w)
+print("*" * length)
+
+
+3.SUBSTRACT 1 FROM STRING LENGTH
+
+
+string = input()
+string_length=len(string)
+result = string_length - 1 
+print(result)
+
+
+4.INDEX OF LAST CHARACTER
+
+w=input()
+print(len(w)-1)
+
+
+5.LAST CHARACTER 
+
+word=input()
+word_len=len(word)
+last_character=word[word_len-1]
+result=last_character
+print(result)
+
+6.LENGTH EXCLUDING CHARACTERS
+
+w=input()
+print(len(w)-2)
+
+
+7.STAR REPETITION_2
+
+w=input()
+l=len(w)
+result=w[0]+"*" * (l-1)
+print(result)
+
+8.HALF LENGTH OF STRING
+
+word=input()
+length=len(word)
+print(length/2)
+
+
+
+
+
+
