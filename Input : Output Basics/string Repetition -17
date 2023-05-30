@@ -1,0 +1,3 @@
+summ=input()
+first=(summ+" ")*3
+print(first)
