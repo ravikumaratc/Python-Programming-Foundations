@@ -1,0 +1,84 @@
+1. SUM OF THE DIGITS
+
+word=input()
+section1=int(word[0])
+section2=int(word[1])
+section3=int(word[2])
+sum=section1+section2+section3
+print(sum)
+
+2.INDEXING
+
+w=input()
+n=int(input())
+print(w[n])
+
+3.STRING REPETITION - 2
+
+word=input()
+n=input()
+n=int(n)
+output=word*n
+print(output)
+
+
+4.FIRST THREE CHARACTERS
+
+word=input()
+ravi=word[0:3]
+print(ravi)
+
+5.PART OF A STRING 
+
+a=input()
+b=int(input())
+result=a[b:]
+print(result)
+
+6.PART OF A STRING - 2
+
+ravi=input()
+start_index = input()
+start_index = int(start_index)
+end_index = input()
+end_index = int(end_index)
+part = ravi[start_index:end_index + 1]
+print(part)
+
+7.FIRST N CHARACTERS
+
+ravi=input()
+no_of_characters = input()
+no_of_characters = int(no_of_characters)
+end_index = no_of_characters
+part = ravi[:end_index]
+print(part)
+
+8.LAST N CHARACTERS
+
+myworld = input()
+no_of_characters = input()
+no_of_characters = int(no_of_characters)
+myworld_length = len(myworld)
+start_index = myworld_length - no_of_characters
+part = myworld[start_index:]
+print(part)
+
+9.SECOND PART OF A STRING
+
+a = input()
+c = a[2:]
+print(c)
+
+10.FIRST PART OF A STRING 
+
+w=input()
+is_digit=""
+for i in w:
+    if i.isdigit():
+        is_digit+=i
+print(is_digit)
+
+
+
+
