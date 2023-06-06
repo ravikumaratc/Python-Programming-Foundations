@@ -1,0 +1,92 @@
+1.SUM OF TWO NUMBERS
+
+a=int(input())
+b=int(input())
+c=a+b
+print(c)
+
+
+2.DIVISION OF TWO NUMBERS
+
+num=int(input())
+num1=int(input())
+result=num/num1
+print(result)
+
+3.AREA OF A RECTANGLE
+
+a=int(input())
+b=int(input())
+sum=a*b
+print(sum)
+
+
+4.PERIMETER OF RECTANGLE
+
+len=input()
+bre=input()
+
+len=int(len)
+bre=int(bre)
+
+sum_of_two_sides=len+bre
+peremeter=2*sum_of_two_sides
+print(peremeter)
+
+5.DIVISION OF TWO NUMBERS-2
+
+num=int(input())
+num1=int(input())
+result=num//num1
+print(result)
+
+6.SUBSTRACTION OF TWO NUMBERS
+
+num=float(input())
+num1=float(input())
+result=num-num1
+print(result)
+
+7.PERCENTAGE OF BOYS
+
+girls_persentage=int(input())
+boys_persentage=100-girls_persentage
+print(boys_persentage)
+
+
+8.SUM OF TWO NUMBERS-2
+
+num=float(input())
+num1=float(input())
+result=num+num1
+print("Sum: "+str(result))
+
+9.KILOMETERS TO METERS
+
+kilometers=input()
+
+kilometers=float(kilometers)
+
+meters=kilometers*1000
+
+meters=int(meters)
+
+print(meters)
+
+10.PERCENTAGE
+
+percentage=int(input())
+value=(percentage/100)*200
+print(value)
+
+11.REMAINDER
+
+dividend = input()
+dividend = int(dividend)
+divisor = input()
+divisor = int(divisor)
+quotient = dividend / divisor
+quotient = int(quotient)
+reminder = dividend - (divisor * quotient)
+print(reminder)
+
