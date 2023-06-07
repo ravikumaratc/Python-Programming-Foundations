@@ -1,0 +1,61 @@
+1.SHAPE
+
+a = int(input())
+print("+ "*a)
+print("+ "*a)
+print("+ "*a)
+
+
+2.BASIC ARTHMETIC
+
+a=input()
+b=input()
+a=int(a)
+b=int(b)
+print(a+b)
+print(a-b)
+print(a*b)
+
+3.PERCENTAGE - 2
+
+a = input()
+a = int(a)
+v = (70/100)*a
+print(v)
+
+4.AREA OF PERIMETER OF SQUARE
+
+side=int(input())
+Area=(side*side)
+Perimeter=(4*side)
+print("Area of the square is:", Area)
+print( "Perimeter of the square is:", Perimeter)
+
+5.STAR REPETITION  - 5
+
+a = input()
+b = input()
+l = len(b)
+print(l*"*"+a[l:])
+
+
+6.PART OF A STRING - 3
+
+a = input()
+print(a[2:-2])
+
+
+7.REPLACE A LETTER
+
+a = input()
+b = int(input())
+c = input()
+print(a[:b]+c+a[b+1:])
+
+
+8.HALF STRING - 2
+
+string1=input()
+n=int(len(string1)/2)
+string2 = string1 [n:]
+print(string2)
