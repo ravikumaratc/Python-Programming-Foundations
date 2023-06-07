@@ -1,0 +1,78 @@
+1.HALF STRING 
+
+word=input()
+y=len(word)
+y=int(y)
+z=y/2
+z=int(z)
+result=word[ :z]
+print(result)
+
+
+2.STRING REPETITION - 3
+
+
+word=input()
+n=int(input())
+length_of_string=len(word)
+start_index=(length_of_string  -3)
+substring=word[start_index:]
+print(substring *n)
+
+
+3.STRING REPETITION - 4
+
+msg=input()
+N=int(input())
+out=(msg+" ")*N
+print(out)
+
+
+4.STAR REPETITION - 4
+
+w=input()
+if len(w) > 4:
+    r = len(w) - 4
+    w = w[:2] + '*' *r + w[len(w)-2:]
+print(w)
+
+
+5.SKIP THE FOURTH CHARACTER
+
+a = input()
+l = len(a)
+l = a[:3]+a[4:]
+print(l)
+
+6.SKIPPING LETTERS
+
+w=input()
+r=int(input())
+before=w[:r]
+after=w[r+1:]
+result=before+after
+print(result)
+
+7.SIMPLE SQUARE - 4
+
+print("###")
+print("###")
+print("###")
+
+8.SIMPLE TRANGLE - 4
+
+print("+")
+print("++")
+print("+++")
+
+9.STARS - 3
+
+a = int(input())
+print("* "*a)
+print("* "*a)
+print("* "*a)
+
+
+
+
+
